@@ -45,6 +45,8 @@ public class MainActivity2 extends MainActivity  {
         recyclerView = (RecyclerView)findViewById(R.id.task_list);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
+
+
         Button addTaskButton = (Button)findViewById(R.id.add_task_button);
         addTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override

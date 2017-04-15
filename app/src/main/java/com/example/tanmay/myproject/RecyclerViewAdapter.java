@@ -31,10 +31,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
         return this.task.size();
     }
 
-    interface OnItemCheckListener {
+    /*interface OnItemCheckListener {
         void onItemCheck(ClipData.Item item);
         void onItemUncheck(ClipData.Item item);
-    }
+    }*/
 
 
 
